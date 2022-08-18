@@ -104,4 +104,277 @@ export const barData = [
     "donut": 73,
     "donutColor": "hsl(13, 70%, 50%)"
   }
+];
+
+export const  lineData = [
+  {
+    "id": "japan",
+    "color": "hsl(309, 70%, 50%)",
+    "data": [
+      {
+        "x": "plane",
+        "y": 32
+      },
+      {
+        "x": "helicopter",
+        "y": 248
+      },
+      {
+        "x": "boat",
+        "y": 235
+      },
+      {
+        "x": "train",
+        "y": 27
+      },
+      {
+        "x": "subway",
+        "y": 21
+      },
+      {
+        "x": "bus",
+        "y": 74
+      },
+      {
+        "x": "car",
+        "y": 43
+      },
+      {
+        "x": "moto",
+        "y": 115
+      },
+      {
+        "x": "bicycle",
+        "y": 235
+      },
+      {
+        "x": "horse",
+        "y": 127
+      },
+      {
+        "x": "skateboard",
+        "y": 119
+      },
+      {
+        "x": "others",
+        "y": 5
+      }
+    ]
+  },
+  {
+    "id": "france",
+    "color": "hsl(279, 70%, 50%)",
+    "data": [
+      {
+        "x": "plane",
+        "y": 77
+      },
+      {
+        "x": "helicopter",
+        "y": 244
+      },
+      {
+        "x": "boat",
+        "y": 101
+      },
+      {
+        "x": "train",
+        "y": 156
+      },
+      {
+        "x": "subway",
+        "y": 164
+      },
+      {
+        "x": "bus",
+        "y": 54
+      },
+      {
+        "x": "car",
+        "y": 28
+      },
+      {
+        "x": "moto",
+        "y": 102
+      },
+      {
+        "x": "bicycle",
+        "y": 203
+      },
+      {
+        "x": "horse",
+        "y": 171
+      },
+      {
+        "x": "skateboard",
+        "y": 147
+      },
+      {
+        "x": "others",
+        "y": 243
+      }
+    ]
+  },
+  {
+    "id": "us",
+    "color": "hsl(39, 70%, 50%)",
+    "data": [
+      {
+        "x": "plane",
+        "y": 64
+      },
+      {
+        "x": "helicopter",
+        "y": 207
+      },
+      {
+        "x": "boat",
+        "y": 204
+      },
+      {
+        "x": "train",
+        "y": 118
+      },
+      {
+        "x": "subway",
+        "y": 44
+      },
+      {
+        "x": "bus",
+        "y": 146
+      },
+      {
+        "x": "car",
+        "y": 187
+      },
+      {
+        "x": "moto",
+        "y": 198
+      },
+      {
+        "x": "bicycle",
+        "y": 28
+      },
+      {
+        "x": "horse",
+        "y": 34
+      },
+      {
+        "x": "skateboard",
+        "y": 239
+      },
+      {
+        "x": "others",
+        "y": 4
+      }
+    ]
+  },
+  {
+    "id": "germany",
+    "color": "hsl(253, 70%, 50%)",
+    "data": [
+      {
+        "x": "plane",
+        "y": 239
+      },
+      {
+        "x": "helicopter",
+        "y": 11
+      },
+      {
+        "x": "boat",
+        "y": 228
+      },
+      {
+        "x": "train",
+        "y": 73
+      },
+      {
+        "x": "subway",
+        "y": 98
+      },
+      {
+        "x": "bus",
+        "y": 0
+      },
+      {
+        "x": "car",
+        "y": 254
+      },
+      {
+        "x": "moto",
+        "y": 272
+      },
+      {
+        "x": "bicycle",
+        "y": 112
+      },
+      {
+        "x": "horse",
+        "y": 272
+      },
+      {
+        "x": "skateboard",
+        "y": 253
+      },
+      {
+        "x": "others",
+        "y": 273
+      }
+    ]
+  },
+  {
+    "id": "norway",
+    "color": "hsl(328, 70%, 50%)",
+    "data": [
+      {
+        "x": "plane",
+        "y": 296
+      },
+      {
+        "x": "helicopter",
+        "y": 2
+      },
+      {
+        "x": "boat",
+        "y": 14
+      },
+      {
+        "x": "train",
+        "y": 241
+      },
+      {
+        "x": "subway",
+        "y": 210
+      },
+      {
+        "x": "bus",
+        "y": 117
+      },
+      {
+        "x": "car",
+        "y": 51
+      },
+      {
+        "x": "moto",
+        "y": 167
+      },
+      {
+        "x": "bicycle",
+        "y": 40
+      },
+      {
+        "x": "horse",
+        "y": 291
+      },
+      {
+        "x": "skateboard",
+        "y": 200
+      },
+      {
+        "x": "others",
+        "y": 187
+      }
+    ]
+  }
 ]
