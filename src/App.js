@@ -2,8 +2,8 @@ import "./App.css";
 import BarChart from "./Charts/BarChart";
 import LineChart from "./Charts/LineChart";
 import RadarChart from "./Charts/RadarChart";
-
-import { barData, lineData, radarData } from "./Charts/data";
+import AreaBumpChart from "./Charts/AreaBump";
+import { barData, lineData, radarData, areaBumpData } from "./Charts/data";
 function App() {
   return (
     <div className="App">
@@ -11,6 +11,7 @@ function App() {
         <BarChart data={barData} />
         <LineChart data={lineData} />
         <RadarChart data={radarData} />
+        <AreaBumpChart data={areaBumpData} />
       </div>
     </div>
   );
