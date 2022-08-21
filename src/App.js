@@ -3,7 +3,8 @@ import BarChart from "./Charts/BarChart";
 import LineChart from "./Charts/LineChart";
 import RadarChart from "./Charts/RadarChart";
 import AreaBumpChart from "./Charts/AreaBump";
-import { barData, lineData, radarData, areaBumpData } from "./Charts/data";
+import CirclePackingChart from './Charts/CirclePacking'
+import { barData, lineData, radarData, areaBumpData, circlePackingChartData } from "./Charts/data";
 function App() {
   return (
     <div className="App">
@@ -12,6 +13,7 @@ function App() {
         <LineChart data={lineData} />
         <RadarChart data={radarData} />
         <AreaBumpChart data={areaBumpData} />
+        <CirclePackingChart data={circlePackingChartData} />
       </div>
     </div>
   );
