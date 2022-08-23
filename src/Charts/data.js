@@ -2370,7 +2370,7 @@ export const bumpData = [
       }
     ]
   }
-]
+];
 
 export const calendarData = [
   {
@@ -4329,4 +4329,48 @@ export const calendarData = [
     "value": 43,
     "day": "2016-10-15"
   }
-]
+];
+
+export const marimekkoData = [
+  {
+    "statement": "it's good",
+    "participation": 31,
+    "stronglyAgree": 13,
+    "agree": 6,
+    "disagree": 18,
+    "stronglyDisagree": 23
+  },
+  {
+    "statement": "it's sweet",
+    "participation": 25,
+    "stronglyAgree": 25,
+    "agree": 26,
+    "disagree": 15,
+    "stronglyDisagree": 2
+  },
+  {
+    "statement": "it's spicy",
+    "participation": 28,
+    "stronglyAgree": 15,
+    "agree": 32,
+    "disagree": 27,
+    "stronglyDisagree": 4
+  },
+  {
+    "statement": "worth eating",
+    "participation": 31,
+    "stronglyAgree": 8,
+    "agree": 20,
+    "disagree": 30,
+    "stronglyDisagree": 28
+  },
+  {
+    "statement": "worth buying",
+    "participation": 13,
+    "stronglyAgree": 12,
+    "agree": 21,
+    "disagree": 12,
+    "stronglyDisagree": 29
+  }
+];
+
