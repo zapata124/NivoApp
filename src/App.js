@@ -9,7 +9,8 @@ import {
   ChoroplethChart,
   FunnelChart,
   HeatMapChart, 
-  ChordChart
+  ChordChart,
+  BumpChart
 } from "./Charts";
 import {
   barData,
@@ -21,7 +22,8 @@ import {
   choroplethData,
   funnelData,
   heatData,
-  chordData
+  chordData,
+  bumpData
 } from "./Charts/data";
 function App() {
   return (
@@ -38,6 +40,7 @@ function App() {
         <FunnelChart data={funnelData} />
         <HeatMapChart data={heatData} />
         <ChordChart data={chordData} />
+        <BumpChart data={bumpData} />
       </div>
     </div>
   );
