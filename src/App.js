@@ -6,6 +6,7 @@ import AreaBumpChart from "./Charts/AreaBump";
 import CirclePackingChart from "./Charts/CirclePacking";
 import BulletChart from "./Charts/BulletChart";
 import ChoroplethChart from "./Charts/ChoroplethChart";
+import FunnelChart from "./Charts/FunnelChart";
 import {
   barData,
   lineData,
@@ -14,6 +15,7 @@ import {
   circlePackingChartData,
   bulletData,
   choroplethData,
+  funnelData,
 } from "./Charts/data";
 function App() {
   return (
@@ -24,8 +26,10 @@ function App() {
         <RadarChart data={radarData} />
         <AreaBumpChart data={areaBumpData} />
         <CirclePackingChart data={circlePackingChartData} />
+        {/* not in working conditions */}
+        {/* <ChoroplethChart data={choroplethData} /> */}
         <BulletChart data={bulletData} />
-        <ChoroplethChart data={choroplethData} />
+        <FunnelChart data={funnelData} />
       </div>
     </div>
   );

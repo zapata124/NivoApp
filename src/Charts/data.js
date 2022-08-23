@@ -1758,4 +1758,32 @@ export const choroplethData = [
   }
 ]
 
+export const funnelData = [
+  {
+    "id": "step_sent",
+    "value": 61792,
+    "label": "Sent"
+  },
+  {
+    "id": "step_viewed",
+    "value": 51291,
+    "label": "Viewed"
+  },
+  {
+    "id": "step_clicked",
+    "value": 48522,
+    "label": "Clicked"
+  },
+  {
+    "id": "step_add_to_card",
+    "value": 40738,
+    "label": "Add To Card"
+  },
+  {
+    "id": "step_purchased",
+    "value": 33826,
+    "label": "Purchased"
+  }
+]
+
 
