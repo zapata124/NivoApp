@@ -6,3 +6,4 @@ export { default as CirclePackingChart } from './Circle';
 export { default as FunnelChart } from './Funnel';
 export { default as LineChart } from './Line';
 export { default as RadarChart } from './Radar';
+export { default as HeatMapChart } from './HeatMap';
