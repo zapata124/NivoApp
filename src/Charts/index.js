@@ -9,3 +9,4 @@ export { default as RadarChart } from './Radar';
 export { default as HeatMapChart } from './HeatMap';
 export { default as ChordChart } from './Chord';
 export { default as BumpChart } from './Bump';
+export { default as CalendarChart } from './Calendar';

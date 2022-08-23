@@ -10,7 +10,8 @@ import {
   FunnelChart,
   HeatMapChart, 
   ChordChart,
-  BumpChart
+  BumpChart,
+  CalendarChart
 } from "./Charts";
 import {
   barData,
@@ -23,7 +24,8 @@ import {
   funnelData,
   heatData,
   chordData,
-  bumpData
+  bumpData,
+  calendarData
 } from "./Charts/data";
 function App() {
   return (
@@ -41,6 +43,7 @@ function App() {
         <HeatMapChart data={heatData} />
         <ChordChart data={chordData} />
         <BumpChart data={bumpData} />
+        <CalendarChart data={calendarData} />
       </div>
     </div>
   );
