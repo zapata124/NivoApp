@@ -1,12 +1,12 @@
 import "./App.css";
-import BarChart from "./Charts/BarChart";
-import LineChart from "./Charts/LineChart";
-import RadarChart from "./Charts/RadarChart";
-import AreaBumpChart from "./Charts/AreaBump";
-import CirclePackingChart from "./Charts/CirclePacking";
-import BulletChart from "./Charts/BulletChart";
-import ChoroplethChart from "./Charts/ChoroplethChart";
-import FunnelChart from "./Charts/FunnelChart";
+import BarChart from "./Charts/Bar/BarChart";
+import LineChart from "./Charts/Line/LineChart";
+import RadarChart from "./Charts/Radar/RadarChart";
+import { AreaBumpChart } from "./Charts";
+import CirclePackingChart from "./Charts/Circle/CirclePacking";
+import BulletChart from "./Charts/Bullet/BulletChart";
+import ChoroplethChart from "./Charts/Choropleth/ChoroplethChart";
+import FunnelChart from "./Charts/Funnel/FunnelChart";
 import {
   barData,
   lineData,
