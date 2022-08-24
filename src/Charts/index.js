@@ -12,3 +12,5 @@ export { default as BumpChart } from './Bump';
 export { default as CalendarChart } from './Calendar';
 export { default as MarimekkoChart } from './Marimekko';
 export { default as NetworkChart } from './Network';
+export { default as ParallelCoordinatesChart } from './ParallelCoordinates';
+export { default as PieChart } from './Pie';

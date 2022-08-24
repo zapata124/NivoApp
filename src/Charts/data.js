@@ -5286,3 +5286,263 @@ export const networkData = {
     }
   ]
 }
+
+export const parallelCoordinatesData = [
+  {
+    "temp": -5,
+    "cost": 6907,
+    "color": "yellow",
+    "target": "B",
+    "volume": 0.4956850607081461
+  },
+  {
+    "temp": -1,
+    "cost": 336444,
+    "color": "green",
+    "target": "A",
+    "volume": 3.2030649237072883
+  },
+  {
+    "temp": 1,
+    "cost": 293000,
+    "color": "red",
+    "target": "E",
+    "volume": 5.538892136205649
+  },
+  {
+    "temp": 14,
+    "cost": 192450,
+    "color": "red",
+    "target": "A",
+    "volume": 4.109634394699835
+  },
+  {
+    "temp": -4,
+    "cost": 269761,
+    "color": "red",
+    "target": "B",
+    "volume": 2.964803554367529
+  },
+  {
+    "temp": 32,
+    "cost": 70131,
+    "color": "green",
+    "target": "C",
+    "volume": 1.813814504620299
+  },
+  {
+    "temp": 18,
+    "cost": 293779,
+    "color": "green",
+    "target": "C",
+    "volume": 2.870660808147591
+  },
+  {
+    "temp": 38,
+    "cost": 190536,
+    "color": "green",
+    "target": "B",
+    "volume": 3.5714121690707574
+  },
+  {
+    "temp": 38,
+    "cost": 4897,
+    "color": "red",
+    "target": "D",
+    "volume": 1.290187925452356
+  },
+  {
+    "temp": 31,
+    "cost": 14976,
+    "color": "yellow",
+    "target": "C",
+    "volume": 4.929209045810552
+  },
+  {
+    "temp": 4,
+    "cost": 114032,
+    "color": "red",
+    "target": "B",
+    "volume": 5.011638806839623
+  },
+  {
+    "temp": 22,
+    "cost": 322110,
+    "color": "red",
+    "target": "B",
+    "volume": 1.4554737083918552
+  },
+  {
+    "temp": -10,
+    "cost": 26791,
+    "color": "red",
+    "target": "D",
+    "volume": 6.946353988344607
+  },
+  {
+    "temp": 9,
+    "cost": 150001,
+    "color": "red",
+    "target": "D",
+    "volume": 5.3609027395595295
+  },
+  {
+    "temp": 3,
+    "cost": 350170,
+    "color": "yellow",
+    "target": "A",
+    "volume": 2.647460290203893
+  },
+  {
+    "temp": 40,
+    "cost": 273259,
+    "color": "green",
+    "target": "A",
+    "volume": 7.546994260644535
+  },
+  {
+    "temp": 5,
+    "cost": 142611,
+    "color": "green",
+    "target": "C",
+    "volume": 5.865233823141761
+  },
+  {
+    "temp": 16,
+    "cost": 207883,
+    "color": "yellow",
+    "target": "A",
+    "volume": 3.4546265156390152
+  },
+  {
+    "temp": 26,
+    "cost": 24645,
+    "color": "red",
+    "target": "A",
+    "volume": 2.2333152353907
+  },
+  {
+    "temp": 1,
+    "cost": 179604,
+    "color": "green",
+    "target": "C",
+    "volume": 5.116170571730931
+  },
+  {
+    "temp": -6,
+    "cost": 5170,
+    "color": "red",
+    "target": "E",
+    "volume": 2.6809998683678216
+  },
+  {
+    "temp": 32,
+    "cost": 45305,
+    "color": "green",
+    "target": "A",
+    "volume": 6.9353229634205595
+  },
+  {
+    "temp": -9,
+    "cost": 46226,
+    "color": "yellow",
+    "target": "B",
+    "volume": 1.5015899771859413
+  },
+  {
+    "temp": 6,
+    "cost": 188966,
+    "color": "green",
+    "target": "C",
+    "volume": 4.532967780650592
+  },
+  {
+    "temp": 33,
+    "cost": 377267,
+    "color": "red",
+    "target": "C",
+    "volume": 6.7305593816473435
+  },
+  {
+    "temp": -3,
+    "cost": 386706,
+    "color": "red",
+    "target": "E",
+    "volume": 1.110586137621021
+  },
+  {
+    "temp": -8,
+    "cost": 395924,
+    "color": "green",
+    "target": "A",
+    "volume": 0.9483937367629443
+  },
+  {
+    "temp": -2,
+    "cost": 73787,
+    "color": "green",
+    "target": "E",
+    "volume": 4.445310507169292
+  },
+  {
+    "temp": 35,
+    "cost": 65636,
+    "color": "yellow",
+    "target": "D",
+    "volume": 3.037910623693303
+  },
+  {
+    "temp": 6,
+    "cost": 16189,
+    "color": "yellow",
+    "target": "C",
+    "volume": 5.8296834964823
+  },
+  {
+    "temp": -8,
+    "cost": 159021,
+    "color": "green",
+    "target": "A",
+    "volume": 5.1443663153326105
+  },
+  {
+    "temp": 37,
+    "cost": 291602,
+    "color": "green",
+    "target": "D",
+    "volume": 6.01817963485231
+  }
+]
+
+export const pieData = [
+  {
+    "id": "scala",
+    "label": "scala",
+    "value": 491,
+    "color": "hsl(28, 70%, 50%)"
+  },
+  {
+    "id": "css",
+    "label": "css",
+    "value": 85,
+    "color": "hsl(89, 70%, 50%)"
+  },
+  {
+    "id": "c",
+    "label": "c",
+    "value": 542,
+    "color": "hsl(173, 70%, 50%)"
+  },
+  {
+    "id": "hack",
+    "label": "hack",
+    "value": 294,
+    "color": "hsl(214, 70%, 50%)"
+  },
+  {
+    "id": "elixir",
+    "label": "elixir",
+    "value": 116,
+    "color": "hsl(319, 70%, 50%)"
+  }
+]
