@@ -5546,3 +5546,69 @@ export const pieData = [
     "color": "hsl(319, 70%, 50%)"
   }
 ]
+
+export const radialbarData = [
+  {
+    "id": "Supermarket",
+    "data": [
+      {
+        "x": "Vegetables",
+        "y": 146
+      },
+      {
+        "x": "Fruits",
+        "y": 50
+      },
+      {
+        "x": "Meat",
+        "y": 37
+      },
+      {
+        "x": "Fish",
+        "y": 234
+      }
+    ]
+  },
+  {
+    "id": "Combini",
+    "data": [
+      {
+        "x": "Vegetables",
+        "y": 177
+      },
+      {
+        "x": "Fruits",
+        "y": 156
+      },
+      {
+        "x": "Meat",
+        "y": 156
+      },
+      {
+        "x": "Fish",
+        "y": 205
+      }
+    ]
+  },
+  {
+    "id": "Online",
+    "data": [
+      {
+        "x": "Vegetables",
+        "y": 244
+      },
+      {
+        "x": "Fruits",
+        "y": 267
+      },
+      {
+        "x": "Meat",
+        "y": 4
+      },
+      {
+        "x": "Fish",
+        "y": 258
+      }
+    ]
+  }
+]

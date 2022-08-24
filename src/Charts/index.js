@@ -14,3 +14,4 @@ export { default as MarimekkoChart } from './Marimekko';
 export { default as NetworkChart } from './Network';
 export { default as ParallelCoordinatesChart } from './ParallelCoordinates';
 export { default as PieChart } from './Pie';
+export { default as RadialBarChart } from './RadialBar';

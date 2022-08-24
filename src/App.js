@@ -15,7 +15,8 @@ import {
   MarimekkoChart,
   NetworkChart,
   ParallelCoordinatesChart,
-  PieChart
+  PieChart,
+  RadialBarChart
 } from "./Charts";
 import {
   barData,
@@ -33,7 +34,8 @@ import {
   marimekkoData,
   networkData,
   parallelCoordinatesData,
-  pieData
+  pieData,
+  radialbarData
 } from "./Charts/data";
 function App() {
   return (
@@ -54,7 +56,9 @@ function App() {
         <CalendarChart data={calendarData} />
         <MarimekkoChart data={marimekkoData} />
         <NetworkChart data={networkData} />
+        <ParallelCoordinatesChart data={parallelCoordinatesData} />
         <PieChart data={pieData} />
+        <RadialBarChart data={radialbarData} />
       </div>
     </div>
   );
