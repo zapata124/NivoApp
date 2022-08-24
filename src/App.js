@@ -12,7 +12,8 @@ import {
   ChordChart,
   BumpChart,
   CalendarChart,
-  MarimekkoChart
+  MarimekkoChart,
+  NetworkChart
 } from "./Charts";
 import {
   barData,
@@ -27,7 +28,8 @@ import {
   chordData,
   bumpData,
   calendarData,
-  marimekkoData
+  marimekkoData,
+  networkData
 } from "./Charts/data";
 function App() {
   return (
@@ -47,6 +49,7 @@ function App() {
         <BumpChart data={bumpData} />
         <CalendarChart data={calendarData} />
         <MarimekkoChart data={marimekkoData} />
+        <NetworkChart data={networkData} />
       </div>
     </div>
   );

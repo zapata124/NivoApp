@@ -11,3 +11,4 @@ export { default as ChordChart } from './Chord';
 export { default as BumpChart } from './Bump';
 export { default as CalendarChart } from './Calendar';
 export { default as MarimekkoChart } from './Marimekko';
+export { default as NetworkChart } from './Network';
