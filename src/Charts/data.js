@@ -5612,3 +5612,79 @@ export const radialbarData = [
     ]
   }
 ]
+
+export const sankeyData = {
+  "nodes": [
+    {
+      "id": "John",
+      "nodeColor": "hsl(76, 70%, 50%)"
+    },
+    {
+      "id": "Raoul",
+      "nodeColor": "hsl(179, 70%, 50%)"
+    },
+    {
+      "id": "Jane",
+      "nodeColor": "hsl(149, 70%, 50%)"
+    },
+    {
+      "id": "Marcel",
+      "nodeColor": "hsl(147, 70%, 50%)"
+    },
+    {
+      "id": "Ibrahim",
+      "nodeColor": "hsl(249, 70%, 50%)"
+    },
+    {
+      "id": "Junko",
+      "nodeColor": "hsl(227, 70%, 50%)"
+    }
+  ],
+  "links": [
+    {
+      "source": "Raoul",
+      "target": "Marcel",
+      "value": 180
+    },
+    {
+      "source": "Raoul",
+      "target": "John",
+      "value": 54
+    },
+    {
+      "source": "Raoul",
+      "target": "Ibrahim",
+      "value": 35
+    },
+    {
+      "source": "Raoul",
+      "target": "Jane",
+      "value": 57
+    },
+    {
+      "source": "John",
+      "target": "Junko",
+      "value": 113
+    },
+    {
+      "source": "John",
+      "target": "Ibrahim",
+      "value": 54
+    },
+    {
+      "source": "Ibrahim",
+      "target": "Marcel",
+      "value": 80
+    },
+    {
+      "source": "Junko",
+      "target": "Jane",
+      "value": 190
+    },
+    {
+      "source": "Junko",
+      "target": "Marcel",
+      "value": 20
+    }
+  ]
+}

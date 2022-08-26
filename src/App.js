@@ -16,7 +16,8 @@ import {
   NetworkChart,
   ParallelCoordinatesChart,
   PieChart,
-  RadialBarChart
+  RadialBarChart,
+  SankeyChart
 } from "./Charts";
 import {
   barData,
@@ -35,7 +36,8 @@ import {
   networkData,
   parallelCoordinatesData,
   pieData,
-  radialbarData
+  radialbarData,
+  sankeyData
 } from "./Charts/data";
 function App() {
   return (
@@ -59,6 +61,7 @@ function App() {
         <ParallelCoordinatesChart data={parallelCoordinatesData} />
         <PieChart data={pieData} />
         <RadialBarChart data={radialbarData} />
+        <SankeyChart data={sankeyData} />
       </div>
     </div>
   );
