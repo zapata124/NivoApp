@@ -17,7 +17,8 @@ import {
   ParallelCoordinatesChart,
   PieChart,
   RadialBarChart,
-  SankeyChart
+  SankeyChart,
+  ScatterPlotChart
 } from "./Charts";
 import {
   barData,
@@ -37,7 +38,8 @@ import {
   parallelCoordinatesData,
   pieData,
   radialbarData,
-  sankeyData
+  sankeyData,
+  scatterplotData
 } from "./Charts/data";
 function App() {
   return (
@@ -62,6 +64,7 @@ function App() {
         <PieChart data={pieData} />
         <RadialBarChart data={radialbarData} />
         <SankeyChart data={sankeyData} />
+        <ScatterPlotChart data={scatterplotData} />
       </div>
     </div>
   );
