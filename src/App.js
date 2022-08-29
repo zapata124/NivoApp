@@ -19,6 +19,7 @@ import {
   RadialBarChart,
   SankeyChart,
   ScatterPlotChart,
+  StreamChart
 } from "./Charts";
 import {
   barData,
@@ -40,6 +41,7 @@ import {
   radialbarData,
   sankeyData,
   scatterplotData,
+  streamData
 } from "./Charts/data";
 function App() {
   return (
@@ -69,6 +71,7 @@ function App() {
         <RadialBarChart data={radialbarData} />
         <SankeyChart data={sankeyData} />
         <ScatterPlotChart data={scatterplotData} />
+        <StreamChart data={streamData} />
       </div>
     </div>
   );

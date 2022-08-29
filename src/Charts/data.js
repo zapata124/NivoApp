@@ -6716,3 +6716,78 @@ export const scatterplotData = [
     ]
   }
 ]
+
+export const streamData = [
+  {
+    "Raoul": 188,
+    "Josiane": 64,
+    "Marcel": 188,
+    "René": 60,
+    "Paul": 37,
+    "Jacques": 48
+  },
+  {
+    "Raoul": 106,
+    "Josiane": 167,
+    "Marcel": 94,
+    "René": 117,
+    "Paul": 10,
+    "Jacques": 153
+  },
+  {
+    "Raoul": 27,
+    "Josiane": 72,
+    "Marcel": 12,
+    "René": 43,
+    "Paul": 74,
+    "Jacques": 22
+  },
+  {
+    "Raoul": 31,
+    "Josiane": 186,
+    "Marcel": 94,
+    "René": 160,
+    "Paul": 65,
+    "Jacques": 12
+  },
+  {
+    "Raoul": 66,
+    "Josiane": 171,
+    "Marcel": 142,
+    "René": 25,
+    "Paul": 98,
+    "Jacques": 29
+  },
+  {
+    "Raoul": 81,
+    "Josiane": 92,
+    "Marcel": 11,
+    "René": 53,
+    "Paul": 57,
+    "Jacques": 45
+  },
+  {
+    "Raoul": 151,
+    "Josiane": 186,
+    "Marcel": 197,
+    "René": 103,
+    "Paul": 55,
+    "Jacques": 119
+  },
+  {
+    "Raoul": 172,
+    "Josiane": 71,
+    "Marcel": 47,
+    "René": 119,
+    "Paul": 88,
+    "Jacques": 67
+  },
+  {
+    "Raoul": 126,
+    "Josiane": 11,
+    "Marcel": 148,
+    "René": 24,
+    "Paul": 152,
+    "Jacques": 113
+  }
+]
