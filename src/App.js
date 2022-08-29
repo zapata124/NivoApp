@@ -8,7 +8,7 @@ import {
   BulletChart,
   ChoroplethChart,
   FunnelChart,
-  HeatMapChart, 
+  HeatMapChart,
   ChordChart,
   BumpChart,
   CalendarChart,
@@ -18,7 +18,7 @@ import {
   PieChart,
   RadialBarChart,
   SankeyChart,
-  ScatterPlotChart
+  ScatterPlotChart,
 } from "./Charts";
 import {
   barData,
@@ -39,14 +39,18 @@ import {
   pieData,
   radialbarData,
   sankeyData,
-  scatterplotData
+  scatterplotData,
 } from "./Charts/data";
 function App() {
   return (
     <div className="App">
       <div style={{ width: "500px", height: "500px" }}>
-        <BarChart data={barData} />
-        <LineChart data={lineData} />
+        <div style={{ width: "inherit", height: "inherit", display: "flex" }}>
+          <div style={{ width: 'inherit', height: 'inherit' }}>
+            <BarChart data={barData} />
+          </div>
+          <LineChart data={lineData} />
+        </div>
         <RadarChart data={radarData} />
         <AreaBumpChart data={areaBumpData} />
         <CirclePackingChart data={circlePackingChartData} />
