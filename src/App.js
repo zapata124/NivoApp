@@ -21,6 +21,7 @@ import {
   ScatterPlotChart,
   StreamChart,
   SunburstChart,
+  SwarmPlotChart,
 } from "./Charts";
 import {
   barData,
@@ -44,6 +45,7 @@ import {
   scatterplotData,
   streamData,
   sunburstData,
+  swarmplotData,
 } from "./Charts/data";
 function App() {
   return (
@@ -75,6 +77,7 @@ function App() {
         <ScatterPlotChart data={scatterplotData} />
         <StreamChart data={streamData} />
         <SunburstChart data={sunburstData} />
+        <SwarmPlotChart data={swarmplotData} />
       </div>
     </div>
   );

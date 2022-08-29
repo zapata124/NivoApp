@@ -19,3 +19,4 @@ export { default as SankeyChart } from "./Sankey";
 export { default as ScatterPlotChart } from "./ScatterPlot";
 export { default as StreamChart } from "./Stream";
 export { default as SunburstChart } from "./Sunburst";
+export { default as SwarmPlotChart } from "./SwarmPlot";
