@@ -16,5 +16,6 @@ export { default as ParallelCoordinatesChart } from "./ParallelCoordinates";
 export { default as PieChart } from "./Pie";
 export { default as RadialBarChart } from "./RadialBar";
 export { default as SankeyChart } from "./Sankey";
-export { default as ScatterPlotChart } from './ScatterPlot'
-export { default as StreamChart } from './Stream'
+export { default as ScatterPlotChart } from "./ScatterPlot";
+export { default as StreamChart } from "./Stream";
+export { default as SunburstChart } from "./Sunburst";

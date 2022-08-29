@@ -19,7 +19,8 @@ import {
   RadialBarChart,
   SankeyChart,
   ScatterPlotChart,
-  StreamChart
+  StreamChart,
+  SunburstChart,
 } from "./Charts";
 import {
   barData,
@@ -41,14 +42,15 @@ import {
   radialbarData,
   sankeyData,
   scatterplotData,
-  streamData
+  streamData,
+  sunburstData,
 } from "./Charts/data";
 function App() {
   return (
     <div className="App">
       <div style={{ width: "500px", height: "500px" }}>
         <div style={{ width: "inherit", height: "inherit", display: "flex" }}>
-          <div style={{ width: 'inherit', height: 'inherit' }}>
+          <div style={{ width: "inherit", height: "inherit" }}>
             <BarChart data={barData} />
           </div>
           <LineChart data={lineData} />
@@ -72,6 +74,7 @@ function App() {
         <SankeyChart data={sankeyData} />
         <ScatterPlotChart data={scatterplotData} />
         <StreamChart data={streamData} />
+        <SunburstChart data={sunburstData} />
       </div>
     </div>
   );
