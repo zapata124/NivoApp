@@ -22,3 +22,4 @@ export { default as SunburstChart } from "./Sunburst";
 export { default as SwarmPlotChart } from "./SwarmPlot";
 export { default as TimeRangeChart } from "./TimeRange";
 export { default as TreeMapChart } from "./TreeMap";
+export { default as VoronoiChart } from "./Voronoi";

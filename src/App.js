@@ -23,7 +23,8 @@ import {
   SunburstChart,
   SwarmPlotChart,
   TimeRangeChart,
-  TreeMapChart 
+  TreeMapChart,
+  VoronoiChart 
 } from "./Charts";
 import {
   barData,
@@ -49,7 +50,8 @@ import {
   sunburstData,
   swarmplotData,
   timerangeData,
-  treemapData
+  treemapData, 
+  voronoiData
 } from "./Charts/data";
 function App() {
   return (
@@ -84,6 +86,7 @@ function App() {
         <SwarmPlotChart data={swarmplotData} />
         <TimeRangeChart data={timerangeData} />
         <TreeMapChart data={treemapData} />
+        <VoronoiChart data={voronoiData} />
       </div>
     </div>
   );
