@@ -55,11 +55,14 @@ import {
   voronoiData,
   waffleData,
 } from "./Charts/data";
+import { ChartContainer } from "./reusables";
 import { Grid } from "@mui/material";
 function App() {
   return (
     <Grid container>
-      <BarChart data={barData} />
+      <ChartContainer>
+        <BarChart data={barData} />
+      </ChartContainer>
 
       <LineChart data={lineData} />
 
