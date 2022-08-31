@@ -7216,1041 +7216,1240 @@ export const sunburstData = {
 
 export const swarmplotData = [
   {
-    "id": "0.0",
-    "group": "group A",
-    "price": 447,
-    "volume": 17
+    id: "0.0",
+    group: "group A",
+    price: 447,
+    volume: 17,
   },
   {
-    "id": "0.1",
-    "group": "group A",
-    "price": 448,
-    "volume": 15
+    id: "0.1",
+    group: "group A",
+    price: 448,
+    volume: 15,
   },
   {
-    "id": "0.2",
-    "group": "group A",
-    "price": 252,
-    "volume": 18
+    id: "0.2",
+    group: "group A",
+    price: 252,
+    volume: 18,
   },
   {
-    "id": "0.3",
-    "group": "group A",
-    "price": 174,
-    "volume": 5
+    id: "0.3",
+    group: "group A",
+    price: 174,
+    volume: 5,
   },
   {
-    "id": "0.4",
-    "group": "group A",
-    "price": 386,
-    "volume": 13
+    id: "0.4",
+    group: "group A",
+    price: 386,
+    volume: 13,
   },
   {
-    "id": "0.5",
-    "group": "group A",
-    "price": 344,
-    "volume": 4
+    id: "0.5",
+    group: "group A",
+    price: 344,
+    volume: 4,
   },
   {
-    "id": "0.6",
-    "group": "group A",
-    "price": 52,
-    "volume": 18
+    id: "0.6",
+    group: "group A",
+    price: 52,
+    volume: 18,
   },
   {
-    "id": "0.7",
-    "group": "group A",
-    "price": 180,
-    "volume": 10
+    id: "0.7",
+    group: "group A",
+    price: 180,
+    volume: 10,
   },
   {
-    "id": "0.8",
-    "group": "group A",
-    "price": 496,
-    "volume": 17
+    id: "0.8",
+    group: "group A",
+    price: 496,
+    volume: 17,
   },
   {
-    "id": "0.9",
-    "group": "group A",
-    "price": 271,
-    "volume": 11
+    id: "0.9",
+    group: "group A",
+    price: 271,
+    volume: 11,
   },
   {
-    "id": "0.10",
-    "group": "group A",
-    "price": 46,
-    "volume": 18
+    id: "0.10",
+    group: "group A",
+    price: 46,
+    volume: 18,
   },
   {
-    "id": "0.11",
-    "group": "group A",
-    "price": 110,
-    "volume": 14
+    id: "0.11",
+    group: "group A",
+    price: 110,
+    volume: 14,
   },
   {
-    "id": "0.12",
-    "group": "group A",
-    "price": 434,
-    "volume": 4
+    id: "0.12",
+    group: "group A",
+    price: 434,
+    volume: 4,
   },
   {
-    "id": "0.13",
-    "group": "group A",
-    "price": 98,
-    "volume": 18
+    id: "0.13",
+    group: "group A",
+    price: 98,
+    volume: 18,
   },
   {
-    "id": "0.14",
-    "group": "group A",
-    "price": 130,
-    "volume": 17
+    id: "0.14",
+    group: "group A",
+    price: 130,
+    volume: 17,
   },
   {
-    "id": "0.15",
-    "group": "group A",
-    "price": 280,
-    "volume": 7
+    id: "0.15",
+    group: "group A",
+    price: 280,
+    volume: 7,
   },
   {
-    "id": "0.16",
-    "group": "group A",
-    "price": 280,
-    "volume": 15
+    id: "0.16",
+    group: "group A",
+    price: 280,
+    volume: 15,
   },
   {
-    "id": "0.17",
-    "group": "group A",
-    "price": 106,
-    "volume": 20
+    id: "0.17",
+    group: "group A",
+    price: 106,
+    volume: 20,
   },
   {
-    "id": "0.18",
-    "group": "group A",
-    "price": 450,
-    "volume": 15
+    id: "0.18",
+    group: "group A",
+    price: 450,
+    volume: 15,
   },
   {
-    "id": "0.19",
-    "group": "group A",
-    "price": 217,
-    "volume": 6
+    id: "0.19",
+    group: "group A",
+    price: 217,
+    volume: 6,
   },
   {
-    "id": "0.20",
-    "group": "group A",
-    "price": 110,
-    "volume": 8
+    id: "0.20",
+    group: "group A",
+    price: 110,
+    volume: 8,
   },
   {
-    "id": "0.21",
-    "group": "group A",
-    "price": 437,
-    "volume": 6
+    id: "0.21",
+    group: "group A",
+    price: 437,
+    volume: 6,
   },
   {
-    "id": "0.22",
-    "group": "group A",
-    "price": 412,
-    "volume": 15
+    id: "0.22",
+    group: "group A",
+    price: 412,
+    volume: 15,
   },
   {
-    "id": "0.23",
-    "group": "group A",
-    "price": 386,
-    "volume": 5
+    id: "0.23",
+    group: "group A",
+    price: 386,
+    volume: 5,
   },
   {
-    "id": "0.24",
-    "group": "group A",
-    "price": 306,
-    "volume": 14
+    id: "0.24",
+    group: "group A",
+    price: 306,
+    volume: 14,
   },
   {
-    "id": "0.25",
-    "group": "group A",
-    "price": 294,
-    "volume": 10
+    id: "0.25",
+    group: "group A",
+    price: 294,
+    volume: 10,
   },
   {
-    "id": "0.26",
-    "group": "group A",
-    "price": 141,
-    "volume": 16
+    id: "0.26",
+    group: "group A",
+    price: 141,
+    volume: 16,
   },
   {
-    "id": "0.27",
-    "group": "group A",
-    "price": 278,
-    "volume": 11
+    id: "0.27",
+    group: "group A",
+    price: 278,
+    volume: 11,
   },
   {
-    "id": "0.28",
-    "group": "group A",
-    "price": 382,
-    "volume": 6
+    id: "0.28",
+    group: "group A",
+    price: 382,
+    volume: 6,
   },
   {
-    "id": "0.29",
-    "group": "group A",
-    "price": 94,
-    "volume": 14
+    id: "0.29",
+    group: "group A",
+    price: 94,
+    volume: 14,
   },
   {
-    "id": "0.30",
-    "group": "group A",
-    "price": 378,
-    "volume": 10
+    id: "0.30",
+    group: "group A",
+    price: 378,
+    volume: 10,
   },
   {
-    "id": "0.31",
-    "group": "group A",
-    "price": 327,
-    "volume": 10
+    id: "0.31",
+    group: "group A",
+    price: 327,
+    volume: 10,
   },
   {
-    "id": "0.32",
-    "group": "group A",
-    "price": 202,
-    "volume": 11
+    id: "0.32",
+    group: "group A",
+    price: 202,
+    volume: 11,
   },
   {
-    "id": "0.33",
-    "group": "group A",
-    "price": 178,
-    "volume": 15
+    id: "0.33",
+    group: "group A",
+    price: 178,
+    volume: 15,
   },
   {
-    "id": "0.34",
-    "group": "group A",
-    "price": 314,
-    "volume": 17
+    id: "0.34",
+    group: "group A",
+    price: 314,
+    volume: 17,
   },
   {
-    "id": "0.35",
-    "group": "group A",
-    "price": 256,
-    "volume": 5
+    id: "0.35",
+    group: "group A",
+    price: 256,
+    volume: 5,
   },
   {
-    "id": "0.36",
-    "group": "group A",
-    "price": 143,
-    "volume": 18
+    id: "0.36",
+    group: "group A",
+    price: 143,
+    volume: 18,
   },
   {
-    "id": "0.37",
-    "group": "group A",
-    "price": 71,
-    "volume": 12
+    id: "0.37",
+    group: "group A",
+    price: 71,
+    volume: 12,
   },
   {
-    "id": "0.38",
-    "group": "group A",
-    "price": 77,
-    "volume": 20
+    id: "0.38",
+    group: "group A",
+    price: 77,
+    volume: 20,
   },
   {
-    "id": "0.39",
-    "group": "group A",
-    "price": 162,
-    "volume": 12
+    id: "0.39",
+    group: "group A",
+    price: 162,
+    volume: 12,
   },
   {
-    "id": "0.40",
-    "group": "group A",
-    "price": 193,
-    "volume": 20
+    id: "0.40",
+    group: "group A",
+    price: 193,
+    volume: 20,
   },
   {
-    "id": "0.41",
-    "group": "group A",
-    "price": 97,
-    "volume": 12
+    id: "0.41",
+    group: "group A",
+    price: 97,
+    volume: 12,
   },
   {
-    "id": "0.42",
-    "group": "group A",
-    "price": 366,
-    "volume": 5
+    id: "0.42",
+    group: "group A",
+    price: 366,
+    volume: 5,
   },
   {
-    "id": "0.43",
-    "group": "group A",
-    "price": 12,
-    "volume": 5
+    id: "0.43",
+    group: "group A",
+    price: 12,
+    volume: 5,
   },
   {
-    "id": "0.44",
-    "group": "group A",
-    "price": 457,
-    "volume": 20
+    id: "0.44",
+    group: "group A",
+    price: 457,
+    volume: 20,
   },
   {
-    "id": "0.45",
-    "group": "group A",
-    "price": 198,
-    "volume": 10
+    id: "0.45",
+    group: "group A",
+    price: 198,
+    volume: 10,
   },
   {
-    "id": "0.46",
-    "group": "group A",
-    "price": 15,
-    "volume": 5
+    id: "0.46",
+    group: "group A",
+    price: 15,
+    volume: 5,
   },
   {
-    "id": "0.47",
-    "group": "group A",
-    "price": 86,
-    "volume": 8
+    id: "0.47",
+    group: "group A",
+    price: 86,
+    volume: 8,
   },
   {
-    "id": "0.48",
-    "group": "group A",
-    "price": 312,
-    "volume": 6
+    id: "0.48",
+    group: "group A",
+    price: 312,
+    volume: 6,
   },
   {
-    "id": "0.49",
-    "group": "group A",
-    "price": 322,
-    "volume": 5
+    id: "0.49",
+    group: "group A",
+    price: 322,
+    volume: 5,
   },
   {
-    "id": "0.50",
-    "group": "group A",
-    "price": 477,
-    "volume": 11
+    id: "0.50",
+    group: "group A",
+    price: 477,
+    volume: 11,
   },
   {
-    "id": "0.51",
-    "group": "group A",
-    "price": 12,
-    "volume": 15
+    id: "0.51",
+    group: "group A",
+    price: 12,
+    volume: 15,
   },
   {
-    "id": "0.52",
-    "group": "group A",
-    "price": 486,
-    "volume": 15
+    id: "0.52",
+    group: "group A",
+    price: 486,
+    volume: 15,
   },
   {
-    "id": "0.53",
-    "group": "group A",
-    "price": 402,
-    "volume": 9
+    id: "0.53",
+    group: "group A",
+    price: 402,
+    volume: 9,
   },
   {
-    "id": "1.0",
-    "group": "group B",
-    "price": 265,
-    "volume": 8
+    id: "1.0",
+    group: "group B",
+    price: 265,
+    volume: 8,
   },
   {
-    "id": "1.1",
-    "group": "group B",
-    "price": 422,
-    "volume": 6
+    id: "1.1",
+    group: "group B",
+    price: 422,
+    volume: 6,
   },
   {
-    "id": "1.2",
-    "group": "group B",
-    "price": 392,
-    "volume": 12
+    id: "1.2",
+    group: "group B",
+    price: 392,
+    volume: 12,
   },
   {
-    "id": "1.3",
-    "group": "group B",
-    "price": 79,
-    "volume": 16
+    id: "1.3",
+    group: "group B",
+    price: 79,
+    volume: 16,
   },
   {
-    "id": "1.4",
-    "group": "group B",
-    "price": 39,
-    "volume": 6
+    id: "1.4",
+    group: "group B",
+    price: 39,
+    volume: 6,
   },
   {
-    "id": "1.5",
-    "group": "group B",
-    "price": 318,
-    "volume": 7
+    id: "1.5",
+    group: "group B",
+    price: 318,
+    volume: 7,
   },
   {
-    "id": "1.6",
-    "group": "group B",
-    "price": 457,
-    "volume": 6
+    id: "1.6",
+    group: "group B",
+    price: 457,
+    volume: 6,
   },
   {
-    "id": "1.7",
-    "group": "group B",
-    "price": 78,
-    "volume": 6
+    id: "1.7",
+    group: "group B",
+    price: 78,
+    volume: 6,
   },
   {
-    "id": "1.8",
-    "group": "group B",
-    "price": 248,
-    "volume": 6
+    id: "1.8",
+    group: "group B",
+    price: 248,
+    volume: 6,
   },
   {
-    "id": "1.9",
-    "group": "group B",
-    "price": 104,
-    "volume": 6
+    id: "1.9",
+    group: "group B",
+    price: 104,
+    volume: 6,
   },
   {
-    "id": "1.10",
-    "group": "group B",
-    "price": 279,
-    "volume": 19
+    id: "1.10",
+    group: "group B",
+    price: 279,
+    volume: 19,
   },
   {
-    "id": "1.11",
-    "group": "group B",
-    "price": 347,
-    "volume": 15
+    id: "1.11",
+    group: "group B",
+    price: 347,
+    volume: 15,
   },
   {
-    "id": "1.12",
-    "group": "group B",
-    "price": 316,
-    "volume": 6
+    id: "1.12",
+    group: "group B",
+    price: 316,
+    volume: 6,
   },
   {
-    "id": "1.13",
-    "group": "group B",
-    "price": 211,
-    "volume": 6
+    id: "1.13",
+    group: "group B",
+    price: 211,
+    volume: 6,
   },
   {
-    "id": "1.14",
-    "group": "group B",
-    "price": 160,
-    "volume": 13
+    id: "1.14",
+    group: "group B",
+    price: 160,
+    volume: 13,
   },
   {
-    "id": "1.15",
-    "group": "group B",
-    "price": 248,
-    "volume": 12
+    id: "1.15",
+    group: "group B",
+    price: 248,
+    volume: 12,
   },
   {
-    "id": "1.16",
-    "group": "group B",
-    "price": 113,
-    "volume": 14
+    id: "1.16",
+    group: "group B",
+    price: 113,
+    volume: 14,
   },
   {
-    "id": "1.17",
-    "group": "group B",
-    "price": 283,
-    "volume": 5
+    id: "1.17",
+    group: "group B",
+    price: 283,
+    volume: 5,
   },
   {
-    "id": "1.18",
-    "group": "group B",
-    "price": 211,
-    "volume": 15
+    id: "1.18",
+    group: "group B",
+    price: 211,
+    volume: 15,
   },
   {
-    "id": "1.19",
-    "group": "group B",
-    "price": 493,
-    "volume": 20
+    id: "1.19",
+    group: "group B",
+    price: 493,
+    volume: 20,
   },
   {
-    "id": "1.20",
-    "group": "group B",
-    "price": 320,
-    "volume": 7
+    id: "1.20",
+    group: "group B",
+    price: 320,
+    volume: 7,
   },
   {
-    "id": "1.21",
-    "group": "group B",
-    "price": 79,
-    "volume": 12
+    id: "1.21",
+    group: "group B",
+    price: 79,
+    volume: 12,
   },
   {
-    "id": "1.22",
-    "group": "group B",
-    "price": 218,
-    "volume": 11
+    id: "1.22",
+    group: "group B",
+    price: 218,
+    volume: 11,
   },
   {
-    "id": "1.23",
-    "group": "group B",
-    "price": 425,
-    "volume": 19
+    id: "1.23",
+    group: "group B",
+    price: 425,
+    volume: 19,
   },
   {
-    "id": "1.24",
-    "group": "group B",
-    "price": 436,
-    "volume": 15
+    id: "1.24",
+    group: "group B",
+    price: 436,
+    volume: 15,
   },
   {
-    "id": "1.25",
-    "group": "group B",
-    "price": 382,
-    "volume": 8
+    id: "1.25",
+    group: "group B",
+    price: 382,
+    volume: 8,
   },
   {
-    "id": "1.26",
-    "group": "group B",
-    "price": 106,
-    "volume": 11
+    id: "1.26",
+    group: "group B",
+    price: 106,
+    volume: 11,
   },
   {
-    "id": "1.27",
-    "group": "group B",
-    "price": 132,
-    "volume": 15
+    id: "1.27",
+    group: "group B",
+    price: 132,
+    volume: 15,
   },
   {
-    "id": "1.28",
-    "group": "group B",
-    "price": 42,
-    "volume": 20
+    id: "1.28",
+    group: "group B",
+    price: 42,
+    volume: 20,
   },
   {
-    "id": "1.29",
-    "group": "group B",
-    "price": 249,
-    "volume": 6
+    id: "1.29",
+    group: "group B",
+    price: 249,
+    volume: 6,
   },
   {
-    "id": "1.30",
-    "group": "group B",
-    "price": 305,
-    "volume": 9
+    id: "1.30",
+    group: "group B",
+    price: 305,
+    volume: 9,
   },
   {
-    "id": "1.31",
-    "group": "group B",
-    "price": 150,
-    "volume": 11
+    id: "1.31",
+    group: "group B",
+    price: 150,
+    volume: 11,
   },
   {
-    "id": "1.32",
-    "group": "group B",
-    "price": 409,
-    "volume": 5
+    id: "1.32",
+    group: "group B",
+    price: 409,
+    volume: 5,
   },
   {
-    "id": "1.33",
-    "group": "group B",
-    "price": 288,
-    "volume": 12
+    id: "1.33",
+    group: "group B",
+    price: 288,
+    volume: 12,
   },
   {
-    "id": "1.34",
-    "group": "group B",
-    "price": 233,
-    "volume": 10
+    id: "1.34",
+    group: "group B",
+    price: 233,
+    volume: 10,
   },
   {
-    "id": "1.35",
-    "group": "group B",
-    "price": 366,
-    "volume": 19
+    id: "1.35",
+    group: "group B",
+    price: 366,
+    volume: 19,
   },
   {
-    "id": "1.36",
-    "group": "group B",
-    "price": 348,
-    "volume": 19
+    id: "1.36",
+    group: "group B",
+    price: 348,
+    volume: 19,
   },
   {
-    "id": "1.37",
-    "group": "group B",
-    "price": 385,
-    "volume": 9
+    id: "1.37",
+    group: "group B",
+    price: 385,
+    volume: 9,
   },
   {
-    "id": "1.38",
-    "group": "group B",
-    "price": 398,
-    "volume": 8
+    id: "1.38",
+    group: "group B",
+    price: 398,
+    volume: 8,
   },
   {
-    "id": "1.39",
-    "group": "group B",
-    "price": 301,
-    "volume": 16
+    id: "1.39",
+    group: "group B",
+    price: 301,
+    volume: 16,
   },
   {
-    "id": "1.40",
-    "group": "group B",
-    "price": 136,
-    "volume": 5
+    id: "1.40",
+    group: "group B",
+    price: 136,
+    volume: 5,
   },
   {
-    "id": "1.41",
-    "group": "group B",
-    "price": 63,
-    "volume": 12
+    id: "1.41",
+    group: "group B",
+    price: 63,
+    volume: 12,
   },
   {
-    "id": "1.42",
-    "group": "group B",
-    "price": 119,
-    "volume": 18
+    id: "1.42",
+    group: "group B",
+    price: 119,
+    volume: 18,
   },
   {
-    "id": "1.43",
-    "group": "group B",
-    "price": 65,
-    "volume": 6
+    id: "1.43",
+    group: "group B",
+    price: 65,
+    volume: 6,
   },
   {
-    "id": "1.44",
-    "group": "group B",
-    "price": 242,
-    "volume": 15
+    id: "1.44",
+    group: "group B",
+    price: 242,
+    volume: 15,
   },
   {
-    "id": "1.45",
-    "group": "group B",
-    "price": 177,
-    "volume": 12
+    id: "1.45",
+    group: "group B",
+    price: 177,
+    volume: 12,
   },
   {
-    "id": "1.46",
-    "group": "group B",
-    "price": 422,
-    "volume": 13
+    id: "1.46",
+    group: "group B",
+    price: 422,
+    volume: 13,
   },
   {
-    "id": "1.47",
-    "group": "group B",
-    "price": 252,
-    "volume": 8
+    id: "1.47",
+    group: "group B",
+    price: 252,
+    volume: 8,
   },
   {
-    "id": "1.48",
-    "group": "group B",
-    "price": 121,
-    "volume": 4
+    id: "1.48",
+    group: "group B",
+    price: 121,
+    volume: 4,
   },
   {
-    "id": "1.49",
-    "group": "group B",
-    "price": 417,
-    "volume": 6
+    id: "1.49",
+    group: "group B",
+    price: 417,
+    volume: 6,
   },
   {
-    "id": "1.50",
-    "group": "group B",
-    "price": 182,
-    "volume": 16
+    id: "1.50",
+    group: "group B",
+    price: 182,
+    volume: 16,
   },
   {
-    "id": "1.51",
-    "group": "group B",
-    "price": 119,
-    "volume": 6
+    id: "1.51",
+    group: "group B",
+    price: 119,
+    volume: 6,
   },
   {
-    "id": "1.52",
-    "group": "group B",
-    "price": 54,
-    "volume": 10
+    id: "1.52",
+    group: "group B",
+    price: 54,
+    volume: 10,
   },
   {
-    "id": "1.53",
-    "group": "group B",
-    "price": 403,
-    "volume": 14
+    id: "1.53",
+    group: "group B",
+    price: 403,
+    volume: 14,
   },
   {
-    "id": "1.54",
-    "group": "group B",
-    "price": 316,
-    "volume": 18
+    id: "1.54",
+    group: "group B",
+    price: 316,
+    volume: 18,
   },
   {
-    "id": "1.55",
-    "group": "group B",
-    "price": 416,
-    "volume": 17
+    id: "1.55",
+    group: "group B",
+    price: 416,
+    volume: 17,
   },
   {
-    "id": "1.56",
-    "group": "group B",
-    "price": 339,
-    "volume": 20
+    id: "1.56",
+    group: "group B",
+    price: 339,
+    volume: 20,
   },
   {
-    "id": "1.57",
-    "group": "group B",
-    "price": 183,
-    "volume": 9
+    id: "1.57",
+    group: "group B",
+    price: 183,
+    volume: 9,
   },
   {
-    "id": "1.58",
-    "group": "group B",
-    "price": 231,
-    "volume": 10
+    id: "1.58",
+    group: "group B",
+    price: 231,
+    volume: 10,
   },
   {
-    "id": "1.59",
-    "group": "group B",
-    "price": 257,
-    "volume": 6
+    id: "1.59",
+    group: "group B",
+    price: 257,
+    volume: 6,
   },
   {
-    "id": "2.0",
-    "group": "group C",
-    "price": 402,
-    "volume": 12
+    id: "2.0",
+    group: "group C",
+    price: 402,
+    volume: 12,
   },
   {
-    "id": "2.1",
-    "group": "group C",
-    "price": 334,
-    "volume": 20
+    id: "2.1",
+    group: "group C",
+    price: 334,
+    volume: 20,
   },
   {
-    "id": "2.2",
-    "group": "group C",
-    "price": 241,
-    "volume": 9
+    id: "2.2",
+    group: "group C",
+    price: 241,
+    volume: 9,
   },
   {
-    "id": "2.3",
-    "group": "group C",
-    "price": 127,
-    "volume": 5
+    id: "2.3",
+    group: "group C",
+    price: 127,
+    volume: 5,
   },
   {
-    "id": "2.4",
-    "group": "group C",
-    "price": 400,
-    "volume": 7
+    id: "2.4",
+    group: "group C",
+    price: 400,
+    volume: 7,
   },
   {
-    "id": "2.5",
-    "group": "group C",
-    "price": 392,
-    "volume": 7
+    id: "2.5",
+    group: "group C",
+    price: 392,
+    volume: 7,
   },
   {
-    "id": "2.6",
-    "group": "group C",
-    "price": 119,
-    "volume": 13
+    id: "2.6",
+    group: "group C",
+    price: 119,
+    volume: 13,
   },
   {
-    "id": "2.7",
-    "group": "group C",
-    "price": 161,
-    "volume": 6
+    id: "2.7",
+    group: "group C",
+    price: 161,
+    volume: 6,
   },
   {
-    "id": "2.8",
-    "group": "group C",
-    "price": 31,
-    "volume": 17
+    id: "2.8",
+    group: "group C",
+    price: 31,
+    volume: 17,
   },
   {
-    "id": "2.9",
-    "group": "group C",
-    "price": 245,
-    "volume": 7
+    id: "2.9",
+    group: "group C",
+    price: 245,
+    volume: 7,
   },
   {
-    "id": "2.10",
-    "group": "group C",
-    "price": 21,
-    "volume": 18
+    id: "2.10",
+    group: "group C",
+    price: 21,
+    volume: 18,
   },
   {
-    "id": "2.11",
-    "group": "group C",
-    "price": 413,
-    "volume": 14
+    id: "2.11",
+    group: "group C",
+    price: 413,
+    volume: 14,
   },
   {
-    "id": "2.12",
-    "group": "group C",
-    "price": 159,
-    "volume": 10
+    id: "2.12",
+    group: "group C",
+    price: 159,
+    volume: 10,
   },
   {
-    "id": "2.13",
-    "group": "group C",
-    "price": 123,
-    "volume": 14
+    id: "2.13",
+    group: "group C",
+    price: 123,
+    volume: 14,
   },
   {
-    "id": "2.14",
-    "group": "group C",
-    "price": 75,
-    "volume": 9
+    id: "2.14",
+    group: "group C",
+    price: 75,
+    volume: 9,
   },
   {
-    "id": "2.15",
-    "group": "group C",
-    "price": 319,
-    "volume": 16
+    id: "2.15",
+    group: "group C",
+    price: 319,
+    volume: 16,
   },
   {
-    "id": "2.16",
-    "group": "group C",
-    "price": 476,
-    "volume": 13
+    id: "2.16",
+    group: "group C",
+    price: 476,
+    volume: 13,
   },
   {
-    "id": "2.17",
-    "group": "group C",
-    "price": 348,
-    "volume": 8
+    id: "2.17",
+    group: "group C",
+    price: 348,
+    volume: 8,
   },
   {
-    "id": "2.18",
-    "group": "group C",
-    "price": 356,
-    "volume": 17
+    id: "2.18",
+    group: "group C",
+    price: 356,
+    volume: 17,
   },
   {
-    "id": "2.19",
-    "group": "group C",
-    "price": 84,
-    "volume": 19
+    id: "2.19",
+    group: "group C",
+    price: 84,
+    volume: 19,
   },
   {
-    "id": "2.20",
-    "group": "group C",
-    "price": 421,
-    "volume": 6
+    id: "2.20",
+    group: "group C",
+    price: 421,
+    volume: 6,
   },
   {
-    "id": "2.21",
-    "group": "group C",
-    "price": 495,
-    "volume": 14
+    id: "2.21",
+    group: "group C",
+    price: 495,
+    volume: 14,
   },
   {
-    "id": "2.22",
-    "group": "group C",
-    "price": 5,
-    "volume": 15
+    id: "2.22",
+    group: "group C",
+    price: 5,
+    volume: 15,
   },
   {
-    "id": "2.23",
-    "group": "group C",
-    "price": 136,
-    "volume": 7
+    id: "2.23",
+    group: "group C",
+    price: 136,
+    volume: 7,
   },
   {
-    "id": "2.24",
-    "group": "group C",
-    "price": 142,
-    "volume": 10
+    id: "2.24",
+    group: "group C",
+    price: 142,
+    volume: 10,
   },
   {
-    "id": "2.25",
-    "group": "group C",
-    "price": 212,
-    "volume": 16
+    id: "2.25",
+    group: "group C",
+    price: 212,
+    volume: 16,
   },
   {
-    "id": "2.26",
-    "group": "group C",
-    "price": 192,
-    "volume": 6
+    id: "2.26",
+    group: "group C",
+    price: 192,
+    volume: 6,
   },
   {
-    "id": "2.27",
-    "group": "group C",
-    "price": 268,
-    "volume": 12
+    id: "2.27",
+    group: "group C",
+    price: 268,
+    volume: 12,
   },
   {
-    "id": "2.28",
-    "group": "group C",
-    "price": 442,
-    "volume": 14
+    id: "2.28",
+    group: "group C",
+    price: 442,
+    volume: 14,
   },
   {
-    "id": "2.29",
-    "group": "group C",
-    "price": 89,
-    "volume": 14
+    id: "2.29",
+    group: "group C",
+    price: 89,
+    volume: 14,
   },
   {
-    "id": "2.30",
-    "group": "group C",
-    "price": 215,
-    "volume": 6
+    id: "2.30",
+    group: "group C",
+    price: 215,
+    volume: 6,
   },
   {
-    "id": "2.31",
-    "group": "group C",
-    "price": 240,
-    "volume": 14
+    id: "2.31",
+    group: "group C",
+    price: 240,
+    volume: 14,
   },
   {
-    "id": "2.32",
-    "group": "group C",
-    "price": 67,
-    "volume": 9
+    id: "2.32",
+    group: "group C",
+    price: 67,
+    volume: 9,
   },
   {
-    "id": "2.33",
-    "group": "group C",
-    "price": 183,
-    "volume": 6
+    id: "2.33",
+    group: "group C",
+    price: 183,
+    volume: 6,
   },
   {
-    "id": "2.34",
-    "group": "group C",
-    "price": 140,
-    "volume": 10
+    id: "2.34",
+    group: "group C",
+    price: 140,
+    volume: 10,
   },
   {
-    "id": "2.35",
-    "group": "group C",
-    "price": 336,
-    "volume": 11
+    id: "2.35",
+    group: "group C",
+    price: 336,
+    volume: 11,
   },
   {
-    "id": "2.36",
-    "group": "group C",
-    "price": 7,
-    "volume": 7
+    id: "2.36",
+    group: "group C",
+    price: 7,
+    volume: 7,
   },
   {
-    "id": "2.37",
-    "group": "group C",
-    "price": 305,
-    "volume": 4
+    id: "2.37",
+    group: "group C",
+    price: 305,
+    volume: 4,
   },
   {
-    "id": "2.38",
-    "group": "group C",
-    "price": 253,
-    "volume": 15
+    id: "2.38",
+    group: "group C",
+    price: 253,
+    volume: 15,
   },
   {
-    "id": "2.39",
-    "group": "group C",
-    "price": 193,
-    "volume": 7
+    id: "2.39",
+    group: "group C",
+    price: 193,
+    volume: 7,
   },
   {
-    "id": "2.40",
-    "group": "group C",
-    "price": 469,
-    "volume": 16
+    id: "2.40",
+    group: "group C",
+    price: 469,
+    volume: 16,
   },
   {
-    "id": "2.41",
-    "group": "group C",
-    "price": 436,
-    "volume": 5
+    id: "2.41",
+    group: "group C",
+    price: 436,
+    volume: 5,
   },
   {
-    "id": "2.42",
-    "group": "group C",
-    "price": 224,
-    "volume": 13
+    id: "2.42",
+    group: "group C",
+    price: 224,
+    volume: 13,
   },
   {
-    "id": "2.43",
-    "group": "group C",
-    "price": 189,
-    "volume": 9
+    id: "2.43",
+    group: "group C",
+    price: 189,
+    volume: 9,
   },
   {
-    "id": "2.44",
-    "group": "group C",
-    "price": 209,
-    "volume": 12
+    id: "2.44",
+    group: "group C",
+    price: 209,
+    volume: 12,
   },
   {
-    "id": "2.45",
-    "group": "group C",
-    "price": 326,
-    "volume": 15
+    id: "2.45",
+    group: "group C",
+    price: 326,
+    volume: 15,
   },
   {
-    "id": "2.46",
-    "group": "group C",
-    "price": 144,
-    "volume": 14
+    id: "2.46",
+    group: "group C",
+    price: 144,
+    volume: 14,
   },
   {
-    "id": "2.47",
-    "group": "group C",
-    "price": 124,
-    "volume": 13
+    id: "2.47",
+    group: "group C",
+    price: 124,
+    volume: 13,
   },
   {
-    "id": "2.48",
-    "group": "group C",
-    "price": 299,
-    "volume": 10
+    id: "2.48",
+    group: "group C",
+    price: 299,
+    volume: 10,
   },
   {
-    "id": "2.49",
-    "group": "group C",
-    "price": 318,
-    "volume": 6
+    id: "2.49",
+    group: "group C",
+    price: 318,
+    volume: 6,
   },
   {
-    "id": "2.50",
-    "group": "group C",
-    "price": 391,
-    "volume": 16
+    id: "2.50",
+    group: "group C",
+    price: 391,
+    volume: 16,
   },
   {
-    "id": "2.51",
-    "group": "group C",
-    "price": 146,
-    "volume": 13
+    id: "2.51",
+    group: "group C",
+    price: 146,
+    volume: 13,
   },
   {
-    "id": "2.52",
-    "group": "group C",
-    "price": 312,
-    "volume": 10
+    id: "2.52",
+    group: "group C",
+    price: 312,
+    volume: 10,
   },
   {
-    "id": "2.53",
-    "group": "group C",
-    "price": 350,
-    "volume": 20
+    id: "2.53",
+    group: "group C",
+    price: 350,
+    volume: 20,
   },
   {
-    "id": "2.54",
-    "group": "group C",
-    "price": 417,
-    "volume": 9
+    id: "2.54",
+    group: "group C",
+    price: 417,
+    volume: 9,
   },
   {
-    "id": "2.55",
-    "group": "group C",
-    "price": 101,
-    "volume": 15
+    id: "2.55",
+    group: "group C",
+    price: 101,
+    volume: 15,
   },
   {
-    "id": "2.56",
-    "group": "group C",
-    "price": 183,
-    "volume": 9
+    id: "2.56",
+    group: "group C",
+    price: 183,
+    volume: 9,
   },
   {
-    "id": "2.57",
-    "group": "group C",
-    "price": 218,
-    "volume": 18
+    id: "2.57",
+    group: "group C",
+    price: 218,
+    volume: 18,
   },
   {
-    "id": "2.58",
-    "group": "group C",
-    "price": 280,
-    "volume": 19
-  }
-]
+    id: "2.58",
+    group: "group C",
+    price: 280,
+    volume: 19,
+  },
+];
+
+export const timerangeData = [
+  {
+    value: 245,
+    day: "2018-05-04",
+  },
+  {
+    value: 104,
+    day: "2018-08-09",
+  },
+  {
+    value: 141,
+    day: "2018-07-20",
+  },
+  {
+    value: 190,
+    day: "2018-06-15",
+  },
+  {
+    value: 93,
+    day: "2018-06-03",
+  },
+  {
+    value: 330,
+    day: "2018-05-20",
+  },
+  {
+    value: 257,
+    day: "2018-05-13",
+  },
+  {
+    value: 106,
+    day: "2018-07-26",
+  },
+  {
+    value: 3,
+    day: "2018-07-02",
+  },
+  {
+    value: 262,
+    day: "2018-05-27",
+  },
+  {
+    value: 269,
+    day: "2018-07-10",
+  },
+  {
+    value: 44,
+    day: "2018-07-18",
+  },
+  {
+    value: 106,
+    day: "2018-07-01",
+  },
+  {
+    value: 349,
+    day: "2018-06-07",
+  },
+  {
+    value: 283,
+    day: "2018-06-13",
+  },
+  {
+    value: 298,
+    day: "2018-04-07",
+  },
+  {
+    value: 281,
+    day: "2018-08-03",
+  },
+  {
+    value: 370,
+    day: "2018-06-05",
+  },
+  {
+    value: 181,
+    day: "2018-08-07",
+  },
+  {
+    value: 347,
+    day: "2018-06-16",
+  },
+  {
+    value: 318,
+    day: "2018-08-11",
+  },
+  {
+    value: 204,
+    day: "2018-06-04",
+  },
+  {
+    value: 395,
+    day: "2018-05-31",
+  },
+  {
+    value: 116,
+    day: "2018-05-28",
+  },
+  {
+    value: 8,
+    day: "2018-05-25",
+  },
+  {
+    value: 367,
+    day: "2018-07-21",
+  },
+  {
+    value: 340,
+    day: "2018-08-02",
+  },
+  {
+    value: 270,
+    day: "2018-05-02",
+  },
+  {
+    value: 262,
+    day: "2018-06-01",
+  },
+  {
+    value: 312,
+    day: "2018-04-22",
+  },
+  {
+    value: 206,
+    day: "2018-06-08",
+  },
+  {
+    value: 249,
+    day: "2018-06-12",
+  },
+  {
+    value: 276,
+    day: "2018-04-14",
+  },
+  {
+    value: 88,
+    day: "2018-06-22",
+  },
+  {
+    value: 257,
+    day: "2018-06-09",
+  },
+  {
+    value: 157,
+    day: "2018-07-03",
+  },
+  {
+    value: 23,
+    day: "2018-06-02",
+  },
+  {
+    value: 317,
+    day: "2018-04-12",
+  },
+  {
+    value: 227,
+    day: "2018-04-15",
+  },
+  {
+    value: 48,
+    day: "2018-05-21",
+  },
+  {
+    value: 121,
+    day: "2018-05-17",
+  },
+  {
+    value: 187,
+    day: "2018-06-28",
+  },
+  {
+    value: 236,
+    day: "2018-04-17",
+  },
+  {
+    value: 291,
+    day: "2018-06-25",
+  },
+  {
+    value: 65,
+    day: "2018-07-17",
+  },
+  {
+    value: 283,
+    day: "2018-04-20",
+  },
+  {
+    value: 36,
+    day: "2018-04-26",
+  },
+  {
+    value: 375,
+    day: "2018-06-30",
+  },
+  {
+    value: 271,
+    day: "2018-08-08",
+  },
+];
