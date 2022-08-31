@@ -22,7 +22,8 @@ import {
   StreamChart,
   SunburstChart,
   SwarmPlotChart,
-  TimeRangeChart 
+  TimeRangeChart,
+  TreeMapChart 
 } from "./Charts";
 import {
   barData,
@@ -47,7 +48,8 @@ import {
   streamData,
   sunburstData,
   swarmplotData,
-  timerangeData
+  timerangeData,
+  treemapData
 } from "./Charts/data";
 function App() {
   return (
@@ -81,6 +83,7 @@ function App() {
         <SunburstChart data={sunburstData} />
         <SwarmPlotChart data={swarmplotData} />
         <TimeRangeChart data={timerangeData} />
+        <TreeMapChart data={treemapData} />
       </div>
     </div>
   );
