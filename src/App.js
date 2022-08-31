@@ -24,7 +24,8 @@ import {
   SwarmPlotChart,
   TimeRangeChart,
   TreeMapChart,
-  VoronoiChart 
+  VoronoiChart,
+  WaffleChart 
 } from "./Charts";
 import {
   barData,
@@ -51,7 +52,8 @@ import {
   swarmplotData,
   timerangeData,
   treemapData, 
-  voronoiData
+  voronoiData,
+  waffleData
 } from "./Charts/data";
 function App() {
   return (
@@ -87,6 +89,7 @@ function App() {
         <TimeRangeChart data={timerangeData} />
         <TreeMapChart data={treemapData} />
         <VoronoiChart data={voronoiData} />
+        <WaffleChart data={waffleData} />
       </div>
     </div>
   );

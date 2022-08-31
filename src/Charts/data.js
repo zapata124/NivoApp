@@ -9378,3 +9378,24 @@ export const voronoiData = [
     "y": 88.75934994161557
   }
 ]
+
+export const waffleData = [
+  {
+    "id": "men",
+    "label": "men",
+    "value": 12.687481757296366,
+    "color": "#468df3"
+  },
+  {
+    "id": "women",
+    "label": "women",
+    "value": 8.413555116499865,
+    "color": "#ba72ff"
+  },
+  {
+    "id": "children",
+    "label": "children",
+    "value": 15.145423546919263,
+    "color": "#a1cfff"
+  }
+]
