@@ -1,8 +1,20 @@
 import React from "react";
-import { Box, Container } from "@mui/material";
+import { Box, Grid, Card } from "@mui/material";
 
-const ChartContainer = ({ children }) => {
-  return <Box sx={{ width: '300px', height: '300px' }}>{children}</Box>;
+const ChartContainer = ({ viz }) => {
+  return (
+    <>
+      {viz.map((element) => {
+        return (
+          <Grid item>
+            <Card>
+              <Box sx={{ width: "300px", height: "300px" }}>{element}</Box>
+            </Card>
+          </Grid>
+        );
+      })}
+    </>
+  );
 };
 
 export default ChartContainer;
