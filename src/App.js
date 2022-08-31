@@ -25,7 +25,7 @@ import {
   TimeRangeChart,
   TreeMapChart,
   VoronoiChart,
-  WaffleChart 
+  WaffleChart,
 } from "./Charts";
 import {
   barData,
@@ -51,47 +51,44 @@ import {
   sunburstData,
   swarmplotData,
   timerangeData,
-  treemapData, 
+  treemapData,
   voronoiData,
-  waffleData
+  waffleData,
 } from "./Charts/data";
+import { Grid } from "@mui/material";
 function App() {
   return (
-    <div className="App">
-      <div style={{ width: "500px", height: "500px" }}>
-        <div style={{ width: "inherit", height: "inherit", display: "flex" }}>
-          <div style={{ width: "inherit", height: "inherit" }}>
-            <BarChart data={barData} />
-          </div>
-          <LineChart data={lineData} />
-        </div>
-        <RadarChart data={radarData} />
-        <AreaBumpChart data={areaBumpData} />
-        <CirclePackingChart data={circlePackingChartData} />
-        {/* not in working conditions */}
-        {/* <ChoroplethChart data={choroplethData} /> */}
-        <BulletChart data={bulletData} />
-        <FunnelChart data={funnelData} />
-        <HeatMapChart data={heatData} />
-        <ChordChart data={chordData} />
-        <BumpChart data={bumpData} />
-        <CalendarChart data={calendarData} />
-        <MarimekkoChart data={marimekkoData} />
-        <NetworkChart data={networkData} />
-        <ParallelCoordinatesChart data={parallelCoordinatesData} />
-        <PieChart data={pieData} />
-        <RadialBarChart data={radialbarData} />
-        <SankeyChart data={sankeyData} />
-        <ScatterPlotChart data={scatterplotData} />
-        <StreamChart data={streamData} />
-        <SunburstChart data={sunburstData} />
-        <SwarmPlotChart data={swarmplotData} />
-        <TimeRangeChart data={timerangeData} />
-        <TreeMapChart data={treemapData} />
-        <VoronoiChart data={voronoiData} />
-        <WaffleChart data={waffleData} />
-      </div>
-    </div>
+    <Grid container>
+      <BarChart data={barData} />
+
+      <LineChart data={lineData} />
+
+      <RadarChart data={radarData} />
+      <AreaBumpChart data={areaBumpData} />
+      <CirclePackingChart data={circlePackingChartData} />
+      {/* not in working conditions */}
+      {/* <ChoroplethChart data={choroplethData} /> */}
+      <BulletChart data={bulletData} />
+      <FunnelChart data={funnelData} />
+      <HeatMapChart data={heatData} />
+      <ChordChart data={chordData} />
+      <BumpChart data={bumpData} />
+      <CalendarChart data={calendarData} />
+      <MarimekkoChart data={marimekkoData} />
+      <NetworkChart data={networkData} />
+      <ParallelCoordinatesChart data={parallelCoordinatesData} />
+      <PieChart data={pieData} />
+      <RadialBarChart data={radialbarData} />
+      <SankeyChart data={sankeyData} />
+      <ScatterPlotChart data={scatterplotData} />
+      <StreamChart data={streamData} />
+      <SunburstChart data={sunburstData} />
+      <SwarmPlotChart data={swarmplotData} />
+      <TimeRangeChart data={timerangeData} />
+      <TreeMapChart data={treemapData} />
+      <VoronoiChart data={voronoiData} />
+      <WaffleChart data={waffleData} />
+    </Grid>
   );
 }
 
