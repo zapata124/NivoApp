@@ -9,16 +9,23 @@ import {
 } from "@mui/material";
 import { hover } from "@testing-library/user-event/dist/hover";
 
-const CardHover = ({ children }) => {
+const PaperHover = ({ children }) => {
   const [hovered, setHovered] = React.useState(false);
   return (
-    <Card
+    <Paper
       elevation={hovered ? 8 : 2}
       onMouseOver={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
     >
-      {children}
-    </Card>
+      <Box
+        sx={{
+          width: "300px",
+          height: "300px",
+        }}
+      >
+        {children}
+      </Box>
+    </Paper>
   );
 };
 const ChartContainer = ({ viz }) => {
@@ -27,13 +34,7 @@ const ChartContainer = ({ viz }) => {
       {viz.map((element) => {
         return (
           <Grid item>
-            <CardHover>
-              {/* <CardActionArea> */}
-              <CardContent>
-                <Box sx={{ width: "300px", height: "300px" }}>{element}</Box>
-              </CardContent>
-              {/* </CardActionArea> */}
-            </CardHover>
+            <PaperHover>{element}</PaperHover>
           </Grid>
         );
       })}
