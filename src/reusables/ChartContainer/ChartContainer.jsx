@@ -46,7 +46,14 @@ const ChartContainer = ({ viz }) => {
         console.log(element);
         return (
           <Grid item key={index}>
-            <PaperHover title={element.type.name}>{element}</PaperHover>
+            <PaperHover
+              title={element.type.name.substring(
+                0,
+                element.type.name.length - 5
+              )}
+            >
+              {element}
+            </PaperHover>
           </Grid>
         );
       })}
