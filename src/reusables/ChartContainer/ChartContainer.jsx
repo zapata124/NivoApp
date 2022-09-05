@@ -7,6 +7,7 @@ import {
   CardActionArea,
   Typography,
   Paper,
+  Divider
 } from "@mui/material";
 import { hover } from "@testing-library/user-event/dist/hover";
 
@@ -22,12 +23,14 @@ const PaperHover = ({ children, title }) => {
         sx={{
           display: "flex",
           justifyContent: "center",
+          // borderBottom: 'solid grey 1px'
         }}
       >
         <Typography variant="h5" justifyContent={"center"}>
           {title}
         </Typography>
       </Box>
+      <Divider /> 
       <Box
         sx={{
           width: "300px",
