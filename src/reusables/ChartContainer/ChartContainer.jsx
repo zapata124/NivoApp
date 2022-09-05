@@ -5,11 +5,12 @@ import {
   Card,
   CardContent,
   CardActionArea,
+  Typography,
   Paper,
 } from "@mui/material";
 import { hover } from "@testing-library/user-event/dist/hover";
 
-const PaperHover = ({ children }) => {
+const PaperHover = ({ children, title }) => {
   const [hovered, setHovered] = React.useState(false);
   return (
     <Paper
@@ -17,6 +18,16 @@ const PaperHover = ({ children }) => {
       onMouseOver={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
     >
+      <Box
+        sx={{
+          display: "flex",
+          justifyContent: "center",
+        }}
+      >
+        <Typography variant="h5" justifyContent={"center"}>
+          {title}
+        </Typography>
+      </Box>
       <Box
         sx={{
           width: "300px",
@@ -31,10 +42,11 @@ const PaperHover = ({ children }) => {
 const ChartContainer = ({ viz }) => {
   return (
     <>
-      {viz.map((element) => {
+      {viz.map((element, index) => {
+        console.log(element);
         return (
-          <Grid item>
-            <PaperHover>{element}</PaperHover>
+          <Grid item key={index}>
+            <PaperHover title={element.type.name}>{element}</PaperHover>
           </Grid>
         );
       })}
