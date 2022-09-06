@@ -7,12 +7,17 @@ import {
   CardActionArea,
   Typography,
   Paper,
-  Divider
+  Divider,
 } from "@mui/material";
 import { hover } from "@testing-library/user-event/dist/hover";
 
 const PaperHover = ({ children, title }) => {
   const [hovered, setHovered] = React.useState(false);
+  const [dimensions, setDimensions] = React.useState("300px");
+  const handleDimensions = () => {
+    if (dimensions === "300px") return setDimensions("500px");
+    else setDimensions("300px");
+  };
   return (
     <Paper
       elevation={hovered ? 8 : 2}
@@ -30,12 +35,13 @@ const PaperHover = ({ children, title }) => {
           {title}
         </Typography>
       </Box>
-      <Divider /> 
+      <Divider />
       <Box
         sx={{
-          width: "300px",
-          height: "300px",
+          width: dimensions,
+          height: dimensions,
         }}
+        onClick={handleDimensions}
       >
         {children}
       </Box>
@@ -44,7 +50,7 @@ const PaperHover = ({ children, title }) => {
 };
 const ChartContainer = ({ viz }) => {
   function drag(ev) {
-    console.log(ev)
+    console.log(ev);
     ev.dataTransfer.setData("text", ev.target.id);
   }
   return (
