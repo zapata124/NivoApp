@@ -58,15 +58,31 @@ import {
 import { ChartContainer } from "./reusables";
 import { Container, Grid } from "@mui/material";
 function App() {
+  function allowDrop(ev) {
+    ev.preventDefault();
+  }
+  
+  function drag(ev) {
+    ev.dataTransfer.setData("text", ev.target.id);
+  }
+  
+  function drop(ev) {
+    ev.preventDefault();
+    var data = ev.dataTransfer.getData("text");
+    ev.target.appendChild(document.getElementById(data));
+  }
   return (
     <Container maxWidth={"xl"} sx={{ bgcolor: "white" }}>
       <Grid
+        className='drop'
         container
         spacing={2}
         sx={{
           justifyContent: "center",
           pt: "50px",
         }}
+        ondrop="drop(event)"
+        ondragover="allowDrop(event)"
       >
         <ChartContainer
           viz={[

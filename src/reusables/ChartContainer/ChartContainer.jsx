@@ -43,12 +43,15 @@ const PaperHover = ({ children, title }) => {
   );
 };
 const ChartContainer = ({ viz }) => {
+  function drag(ev) {
+    console.log(ev)
+    ev.dataTransfer.setData("text", ev.target.id);
+  }
   return (
     <>
       {viz.map((element, index) => {
-        console.log(element);
         return (
-          <Grid item key={index}>
+          <Grid item key={index} draggable="true" ondragstart={(e) => drag(e)}>
             <PaperHover
               title={element.type.name.substring(
                 0,
