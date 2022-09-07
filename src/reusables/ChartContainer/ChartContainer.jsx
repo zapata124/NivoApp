@@ -52,30 +52,31 @@ const PaperHover = ({ children, title }) => {
         </Box>
       </Paper>
       <Dialog
+        fullWidth={true}
         open={open}
         onClick={() => setOpen(false)}
         BackdropProps={{ invisible: true }}
       >
         <DialogContent
-        // sx={{
-        //   display: "flex",
-        //   justifyContent: "center",
-        //   alignItems: "center",
-        //   // borderBottom: 'solid grey 1px'
-        // }}
+          sx={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            // borderBottom: 'solid grey 1px'
+          }}
         >
           <Box
             sx={{
               display: "flex",
               justifyContent: "center",
               alignItems: "center",
-              // borderBottom: 'solid grey 1px'
             }}
           ></Box>
+
           <Box
             sx={{
-              width: "500px",
-              height: "500px",
+              width: "600px",
+              height: "600px",
             }}
             onClick={handleDimensions}
           >
