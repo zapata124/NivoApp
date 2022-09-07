@@ -8,44 +8,82 @@ import {
   Typography,
   Paper,
   Divider,
+  Dialog,
+  DialogContent,
 } from "@mui/material";
 import { hover } from "@testing-library/user-event/dist/hover";
 
 const PaperHover = ({ children, title }) => {
   const [hovered, setHovered] = React.useState(false);
   const [dimensions, setDimensions] = React.useState("300px");
+  const [open, setOpen] = React.useState(false);
   const handleDimensions = () => {
-    if (dimensions === "300px") return setDimensions("500px");
+    if (dimensions === "300px") return setDimensions("50vh");
     else setDimensions("300px");
   };
   return (
-    <Paper
-      elevation={hovered ? 8 : 2}
-      onMouseOver={() => setHovered(true)}
-      onMouseLeave={() => setHovered(false)}
-    >
-      <Box
-        sx={{
-          display: "flex",
-          justifyContent: "center",
-          // borderBottom: 'solid grey 1px'
-        }}
+    <>
+      <Paper
+        elevation={hovered ? 8 : 2}
+        onMouseOver={() => setHovered(true)}
+        onMouseLeave={() => setHovered(false)}
+        onClick={() => setOpen(true)}
       >
-        <Typography variant="h5" justifyContent={"center"}>
-          {title}
-        </Typography>
-      </Box>
-      <Divider />
-      <Box
-        sx={{
-          width: dimensions,
-          height: dimensions,
-        }}
-        onClick={handleDimensions}
+        <Box
+          sx={{
+            display: "flex",
+            justifyContent: "center",
+            // borderBottom: 'solid grey 1px'
+          }}
+        >
+          <Typography variant="h5" justifyContent={"center"}>
+            {title}
+          </Typography>
+        </Box>
+        <Divider />
+        <Box
+          sx={{
+            width: "300px",
+            height: "300px",
+          }}
+          onClick={handleDimensions}
+        >
+          {children}
+        </Box>
+      </Paper>
+      <Dialog
+        open={open}
+        onClick={() => setOpen(false)}
+        BackdropProps={{ invisible: true }}
       >
-        {children}
-      </Box>
-    </Paper>
+        <DialogContent
+        // sx={{
+        //   display: "flex",
+        //   justifyContent: "center",
+        //   alignItems: "center",
+        //   // borderBottom: 'solid grey 1px'
+        // }}
+        >
+          <Box
+            sx={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              // borderBottom: 'solid grey 1px'
+            }}
+          ></Box>
+          <Box
+            sx={{
+              width: "500px",
+              height: "500px",
+            }}
+            onClick={handleDimensions}
+          >
+            {children}
+          </Box>
+        </DialogContent>
+      </Dialog>
+    </>
   );
 };
 const ChartContainer = ({ viz }) => {
