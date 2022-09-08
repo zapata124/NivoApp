@@ -12,7 +12,7 @@ import {
   DialogContent,
 } from "@mui/material";
 import { hover } from "@testing-library/user-event/dist/hover";
-import { motion } from "framer-motion";
+import { motion, AnimatePresence, AnimateSharedLayout } from "framer-motion";
 import { width } from "@mui/system";
 const PaperHover = ({ children, title }) => {
   const [hovered, setHovered] = React.useState(false);
@@ -94,41 +94,50 @@ const ChartContainer = ({ viz }) => {
     ev.dataTransfer.setData("text", ev.target.id);
   }
   const [open, setOpen] = React.useState(false);
+
+  const [selectedId, setSelectedId] = React.useState(null);
   return (
     <>
       {viz.map((element, index) => {
         return (
           <Grid item key={index} draggable="true" ondragstart={(e) => drag(e)}>
-            <motion.div
-              // animate={{
-              //   scale: [1, 2, 2, 1, 1],
-              //   rotate: [0, 0, 270, 270, 0],
-              //   borderRadius: ["20%", "20%", "50%", "50%", "20%"],
-              // }}
-              // whileHover={{ scale: 1.1 }}
-              // whileTap={{ scale: 0.9 }}
-              // drag
-              // dragConstraints={{
-              //   top: -50,
-              //   left: -50,
-              //   right: 50,
-              //   bottom: 50,
-              // }}
-              whileHover={{ scale: [null, 1.4, 1.5] }}
-              transition={{ duration: 0.9 }}
-              layout
-              style={open ? { scale: 1.5, width: '500px', height: '500px' } : null }
-              onClick={() => setOpen(!open)}
-            >
-              <PaperHover
-                title={element.type.name.substring(
-                  0,
-                  element.type.name.length - 5
-                )}
+            <AnimateSharedLayout>
+              <motion.div
+                layout
+                // animate={{
+                //   scale: [1, 2, 2, 1, 1],
+                //   rotate: [0, 0, 270, 270, 0],
+                //   borderRadius: ["20%", "20%", "50%", "50%", "20%"],
+                // }}
+                // whileHover={{ scale: 1.1 }}
+                // whileTap={{ scale: 0.9 }}
+                // drag
+                // dragConstraints={{
+                //   top: -50,
+                //   left: -50,
+                //   right: 50,
+                //   bottom: 50,
+                // }}
+                whileHover={{ scale: [null, 1.4, 1.5] }}
+                transition={{ duration: 0.9 }}
+                style={
+                  open ? { scale: 1.5, width: "500px", height: "500px" } : null
+                }
+                onClick={() => setOpen(!open)}
               >
-                {element}
-              </PaperHover>
-            </motion.div>
+                <PaperHover
+                  title={element.type.name.substring(
+                    0,
+                    element.type.name.length - 5
+                  )}
+                >
+                  {element}
+                </PaperHover>
+              </motion.div>
+              <AnimatePresence>
+                {selectedId && <motion.img layoutId={selectedId} />}
+              </AnimatePresence>
+            </AnimateSharedLayout>
           </Grid>
         );
       })}
