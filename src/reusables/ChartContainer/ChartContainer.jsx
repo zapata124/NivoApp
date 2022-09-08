@@ -13,6 +13,7 @@ import {
 } from "@mui/material";
 import { hover } from "@testing-library/user-event/dist/hover";
 import { motion } from "framer-motion";
+import { width } from "@mui/system";
 const PaperHover = ({ children, title }) => {
   const [hovered, setHovered] = React.useState(false);
   const [dimensions, setDimensions] = React.useState("300px");
@@ -51,7 +52,7 @@ const PaperHover = ({ children, title }) => {
           {children}
         </Box>
       </Paper>
-      <Dialog
+      {/* <Dialog
         fullWidth={true}
         open={open}
         onClick={() => setOpen(false)}
@@ -83,7 +84,7 @@ const PaperHover = ({ children, title }) => {
             {children}
           </Box>
         </DialogContent>
-      </Dialog>
+      </Dialog> */}
     </>
   );
 };
@@ -92,17 +93,18 @@ const ChartContainer = ({ viz }) => {
     console.log(ev);
     ev.dataTransfer.setData("text", ev.target.id);
   }
+  const [open, setOpen] = React.useState(false);
   return (
     <>
       {viz.map((element, index) => {
         return (
           <Grid item key={index} draggable="true" ondragstart={(e) => drag(e)}>
             <motion.div
-              animate={{
-                scale: [1, 2, 2, 1, 1],
-                rotate: [0, 0, 270, 270, 0],
-                borderRadius: ["20%", "20%", "50%", "50%", "20%"],
-              }}
+              // animate={{
+              //   scale: [1, 2, 2, 1, 1],
+              //   rotate: [0, 0, 270, 270, 0],
+              //   borderRadius: ["20%", "20%", "50%", "50%", "20%"],
+              // }}
               // whileHover={{ scale: 1.1 }}
               // whileTap={{ scale: 0.9 }}
               // drag
@@ -112,6 +114,11 @@ const ChartContainer = ({ viz }) => {
               //   right: 50,
               //   bottom: 50,
               // }}
+              whileHover={{ scale: [null, 1.4, 1.5] }}
+              transition={{ duration: 0.9 }}
+              layout
+              style={open ? { scale: 1.5, width: '500px', height: '500px' } : null }
+              onClick={() => setOpen(!open)}
             >
               <PaperHover
                 title={element.type.name.substring(
