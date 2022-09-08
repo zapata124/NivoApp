@@ -24,67 +24,56 @@ const PaperHover = ({ children, title }) => {
   };
   return (
     <>
-      <Paper
-        // elevation={hovered ? 8 : 2}
-        onMouseOver={() => setHovered(true)}
-        onMouseLeave={() => setHovered(false)}
-        onClick={() => setOpen(true)}
+      <motion.div
+        layout
+        // animate={{
+        //   scale: [1, 2, 2, 1, 1],
+        //   rotate: [0, 0, 270, 270, 0],
+        //   borderRadius: ["20%", "20%", "50%", "50%", "20%"],
+        // }}
+        // whileHover={{ scale: 1.1 }}
+        // whileTap={{ scale: 0.9 }}
+        // drag
+        // dragConstraints={{
+        //   top: -50,
+        //   left: -50,
+        //   right: 50,
+        //   bottom: 50,
+        // }}
+        whileHover={{ scale: [null, 1.4, 1.5] }}
+        transition={{ duration: 0.9 }}
+        style={open ? { scale: 1.5, width: "500px", height: "500px" } : null}
+        onClick={() => setOpen(!open)}
       >
-        <Box
-          sx={{
-            display: "flex",
-            justifyContent: "center",
-            // borderBottom: 'solid grey 1px'
-          }}
-        >
-          <Typography variant="h5" justifyContent={"center"}>
-            {title}
-          </Typography>
-        </Box>
-        <Divider />
-        <Box
-          sx={{
-            width: "300px",
-            height: "300px",
-          }}
-          onClick={handleDimensions}
-        >
-          {children}
-        </Box>
-      </Paper>
-      {/* <Dialog
-        fullWidth={true}
-        open={open}
-        onClick={() => setOpen(false)}
-        BackdropProps={{ invisible: true }}
-      >
-        <DialogContent
-          sx={{
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            // borderBottom: 'solid grey 1px'
-          }}
+        <Paper
+          // elevation={hovered ? 8 : 2}
+          onMouseOver={() => setHovered(true)}
+          onMouseLeave={() => setHovered(false)}
+          onClick={() => setOpen(true)}
         >
           <Box
             sx={{
               display: "flex",
               justifyContent: "center",
-              alignItems: "center",
+              // borderBottom: 'solid grey 1px'
             }}
-          ></Box>
-
+          >
+            <Typography variant="h5" justifyContent={"center"}>
+              {title}
+            </Typography>
+          </Box>
+          <Divider />
           <Box
             sx={{
-              width: "600px",
-              height: "600px",
+              width: "300px",
+              height: "300px",
             }}
             onClick={handleDimensions}
           >
             {children}
           </Box>
-        </DialogContent>
-      </Dialog> */}
+        </Paper>
+      </motion.div>
     </>
   );
 };
@@ -102,29 +91,7 @@ const ChartContainer = ({ viz }) => {
         return (
           <Grid item key={index} draggable="true" ondragstart={(e) => drag(e)}>
             <AnimateSharedLayout>
-              <motion.div
-                layout
-                // animate={{
-                //   scale: [1, 2, 2, 1, 1],
-                //   rotate: [0, 0, 270, 270, 0],
-                //   borderRadius: ["20%", "20%", "50%", "50%", "20%"],
-                // }}
-                // whileHover={{ scale: 1.1 }}
-                // whileTap={{ scale: 0.9 }}
-                // drag
-                // dragConstraints={{
-                //   top: -50,
-                //   left: -50,
-                //   right: 50,
-                //   bottom: 50,
-                // }}
-                whileHover={{ scale: [null, 1.4, 1.5] }}
-                transition={{ duration: 0.9 }}
-                style={
-                  open ? { scale: 1.5, width: "500px", height: "500px" } : null
-                }
-                onClick={() => setOpen(!open)}
-              >
+              <motion.div>
                 <PaperHover
                   title={element.type.name.substring(
                     0,
@@ -134,9 +101,6 @@ const ChartContainer = ({ viz }) => {
                   {element}
                 </PaperHover>
               </motion.div>
-              <AnimatePresence>
-                {selectedId && <motion.img layoutId={selectedId} />}
-              </AnimatePresence>
             </AnimateSharedLayout>
           </Grid>
         );
