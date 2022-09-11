@@ -5521,30 +5521,30 @@ export const pieData = [
     value: 491,
     color: "hsl(28, 70%, 50%)",
   },
-  {
-    id: "css",
-    label: "css",
-    value: 85,
-    color: "hsl(89, 70%, 50%)",
-  },
-  {
-    id: "c",
-    label: "c",
-    value: 542,
-    color: "hsl(173, 70%, 50%)",
-  },
-  {
-    id: "hack",
-    label: "hack",
-    value: 294,
-    color: "hsl(214, 70%, 50%)",
-  },
-  {
-    id: "elixir",
-    label: "elixir",
-    value: 116,
-    color: "hsl(319, 70%, 50%)",
-  },
+  // {
+  //   id: "css",
+  //   label: "css",
+  //   value: 85,
+  //   color: "hsl(89, 70%, 50%)",
+  // },
+  // {
+  //   id: "c",
+  //   label: "c",
+  //   value: 542,
+  //   color: "hsl(173, 70%, 50%)",
+  // },
+  // {
+  //   id: "hack",
+  //   label: "hack",
+  //   value: 294,
+  //   color: "hsl(214, 70%, 50%)",
+  // },
+  // {
+  //   id: "elixir",
+  //   label: "elixir",
+  //   value: 116,
+  //   color: "hsl(319, 70%, 50%)",
+  // },
 ];
 
 export const radialbarData = [
