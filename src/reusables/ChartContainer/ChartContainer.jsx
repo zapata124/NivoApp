@@ -42,13 +42,22 @@ const PaperHover = ({ children, title }) => {
         // }}
         whileHover={{ scale: [null, 1.4, 1.5] }}
         transition={{ duration: 0.9 }}
-        style={open ? { scale: 1.5, width: "500px", height: "500px" } : null}
+        style={
+          open
+            ? {
+                scale: 1.5,
+                // width: "500px",
+                height: "500px",
+                position: "absolute",
+              }
+            : null
+        }
         onClick={() => setOpen(!open)}
       >
         <Paper
           // elevation={hovered ? 8 : 2}
-          onMouseOver={() => setHovered(true)}
-          onMouseLeave={() => setHovered(false)}
+          // onMouseOver={() => setHovered(true)}
+          // onMouseLeave={() => setHovered(false)}
           onClick={() => setOpen(true)}
         >
           <Box

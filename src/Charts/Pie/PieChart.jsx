@@ -1,7 +1,7 @@
 // install (please make sure versions match peerDependencies)
 // yarn add @nivo/core @nivo/pie
 import { ResponsivePie } from "@nivo/pie";
-
+import { animated } from "@react-spring/web";
 // make sure parent container have a defined height when using
 // responsive component, otherwise height will be 0 and
 // no chart will be rendered.
@@ -31,30 +31,29 @@ const CenteredMetric = ({ dataWithArc, centerX, centerY }) => {
 const PieChart = ({ data /* see data tab */ }) => (
   <ResponsivePie
     data={data}
-    
     arcLabelsComponent={({ datum, label, style }) => (
-                <animated.g transform={style.transform} style={{ pointerEvents: 'none' }}>
-                        <circle fill={style.textColor} cy={6} r={15} />
-                      <circle fill="#ffffff" stroke={datum.color} strokeWidth={2} r={16} />
-                       <text
-                            textAnchor="middle"
-                           dominantBaseline="central"
-                        fill={style.textColor}
-                           style={{
-                        fontSize: 10,
-                              fontWeight: 800,
-                           }}
-                      >
-                    {label}
-                    </text>
-                   </animated.g>
-             )}
+      <animated.g transform={style.transform} style={{ pointerEvents: "none" }}>
+        <circle fill={style.textColor} cy={6} r={15} />
+        <circle fill="#ffffff" stroke={datum.color} strokeWidth={2} r={16} />
+        <text
+          textAnchor="middle"
+          dominantBaseline="central"
+          fill={style.textColor}
+          style={{
+            fontSize: 10,
+            fontWeight: 800,
+          }}
+        >
+          {label}
+        </text>
+      </animated.g>
+    )}
     margin={{ top: 40, right: 80, bottom: 80, left: 80 }}
     innerRadius={0}
     padAngle={0.7}
     cornerRadius={3}
     activeOuterRadiusOffset={8}
-    layers={['arcs', 'arcLabels', 'arcLinkLabels', 'legends', CenteredMetric]}
+    layers={["arcs", "arcLabels", "arcLinkLabels", "legends", CenteredMetric]}
     activeInnerRadiusOffset={30}
     borderWidth={1}
     borderColor={{
